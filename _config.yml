@@ -1,0 +1,33 @@
+# Site settings
+title: Foodishappiness
+email: steven@foodishappiness.com
+description: A blog about food porn
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://foodishappiness.com" # the base hostname & protocol for your site
+twitter_username: foodishappiness
+github_username:  sunpech
+
+paginate:         4
+timezone: "America/Chicago"
+
+# Permalinks
+permalink:        /:year/:month/:title
+relative_permalinks: true
+
+# Build settings
+markdown: redcarpet
+
+sitemap:
+    file: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
+
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
