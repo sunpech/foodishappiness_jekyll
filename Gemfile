@@ -6,4 +6,3 @@ gem 'jekyll-redirect-from', :git => 'https://github.com/jekyll/jekyll-redirect-f
 gem 'jekyll-paginate'
 gem 'jekyll-sitemap'
 gem 'redcarpet'
-gem 'pygments.rb'
