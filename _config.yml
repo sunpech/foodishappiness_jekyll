@@ -12,7 +12,7 @@ timezone: "America/Chicago"
 
 # Permalinks
 permalink:        /:year/:month/:title
-relative_permalinks: true
+#relative_permalinks: true
 
 # Build settings
 markdown: redcarpet
@@ -31,3 +31,4 @@ sitemap:
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-paginate
