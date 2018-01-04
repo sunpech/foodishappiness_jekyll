@@ -12,8 +12,6 @@ timezone: "America/Chicago"
 
 # Permalinks
 permalink:        /:year/:month/:title
-
-# Not supported in Jekyll 3.0
 #relative_permalinks: true
 
 # Build settings
@@ -33,3 +31,4 @@ sitemap:
 gems:
   - jekyll-redirect-from
   - jekyll-sitemap
+  - jekyll-paginate
